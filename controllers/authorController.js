@@ -92,7 +92,7 @@ exports.author_delete_get = asyncHandler(async (req, res, next) => {
   }
 
   res.render("author_delete", {
-    titel: "Delete Author",
+    title: "Delete Author",
     author: author,
     author_books: allBooksByAuthor,
   });
